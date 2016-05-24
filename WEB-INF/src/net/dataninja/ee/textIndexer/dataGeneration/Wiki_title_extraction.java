@@ -1,6 +1,10 @@
-import net.dataninja.ee.textIndexer.*;
+package net.dataninja.ee.textIndexer.dataGeneration;
+
+import net.dataninja.ee.textIndexer.IndexInfo;
 import net.dataninja.ee.textIndexer.XMLTextProcessor;
-import Junit.*;
+
+import java.io.IOException;
+
 public class Wiki_title_extraction {
     private static Wiki_title_extraction ourInstance = new Wiki_title_extraction();
     private static int print=1;
@@ -32,7 +36,7 @@ public class Wiki_title_extraction {
     }
 
     public static int getCount () {
-        return count;;
+        return count;//
     }
 
     public static void setCount (final int count) {
@@ -46,9 +50,8 @@ public class Wiki_title_extraction {
     public static void setXmlTextProcessor (final XMLTextProcessor xmlTextProcessor) {
         Wiki_title_extraction.xmlTextProcessor = xmlTextProcessor;
     }
-    public static void gen(String homePath, IndexInfo idxInfo, boolean clean ){
+    public static void gen(String homePath, IndexInfo idxInfo, boolean clean ) throws IOException {
         xmlTextProcessor.open(homePath,idxInfo,clean);
-        xmlTextProcessor;
 
     }
 }
