@@ -8,8 +8,10 @@
       <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01.jar!/" />
     </CLASSES>
     <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jregex/jregex/1.2_01/jregex-1.2_01-javadoc.jar!/" />
